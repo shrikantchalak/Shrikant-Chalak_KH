@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Arms
+{public static void main(String[] args){
+Scanner sc= new Scanner(System.in);
+System.out.println("Enter Number");
+int n=sc.nextInt();
+int tem=n;
+int sum=0;
+while(n>0){
+	 int r=n1%10;
+	 sum = sum+(r*r*r);
+	 n1=n1/10;
+     }
+    if(tem == sum)
+      System.out.println("Armstrong Number");
+         
+    else
+	   System.out.println("Not An Armstrong");
+}
+}

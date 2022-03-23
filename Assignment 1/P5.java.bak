@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class P5
+{public static void main(String[] args){
+Scanner sc= new Scanner(System.in);
+System.out.println("Enter Number");
+int n=sc.nextInt();
+
+if (n>=0)
+{System.out.print("The Number Is Possitive ");}
+else
+{System.out.print("The Number is Negative);}
+
+}
+}
